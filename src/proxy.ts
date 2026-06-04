@@ -3,14 +3,9 @@ import { defaultLocale, locales } from "@/i18n/config";
 
 const PUBLIC_FILE = /\.(.*)$/;
 
-/**
- * Redirects locale-less paths to the default locale.
- * e.g. "/" -> "/en", "/projects/x" -> "/en/projects/x"
- */
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Skip Next internals, API routes and static files
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
