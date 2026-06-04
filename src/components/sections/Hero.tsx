@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion, type Variants } from "framer-motion";
 import { Download, FolderGit2, Github, Linkedin, Mail, MapPin } from "lucide-react";
 import { useLocale } from "@/i18n/LocaleProvider";
 import { portfolio } from "@/content/profile";
@@ -12,12 +12,12 @@ export function Hero() {
   const { profile } = portfolio;
   const reduce = useReducedMotion();
 
-  const container = {
+  const container: Variants = {
     hidden: {},
     show: { transition: { staggerChildren: 0.08, delayChildren: 0.05 } },
   };
-  const item = reduce
-    ? {}
+  const item: Variants = reduce
+    ? { hidden: {}, show: {} }
     : {
         hidden: { opacity: 0, y: 18 },
         show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
