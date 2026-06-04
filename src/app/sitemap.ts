@@ -3,7 +3,7 @@ import { locales } from "@/i18n/config";
 import { portfolio } from "@/content/profile";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://portfolio-1o5y.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://ayse-sena-bagdat.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
