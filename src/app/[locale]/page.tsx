@@ -4,7 +4,6 @@ import { Skills } from "@/components/sections/Skills";
 import { Projects } from "@/components/sections/Projects";
 import { Journey } from "@/components/sections/Journey";
 import { Certifications } from "@/components/sections/Certifications";
-import { CurrentFocus } from "@/components/sections/CurrentFocus";
 import { Contact } from "@/components/sections/Contact";
 
 export default function HomePage() {
@@ -16,7 +15,6 @@ export default function HomePage() {
       <Projects />
       <Journey />
       <Certifications />
-      <CurrentFocus />
       <Contact />
     </>
   );

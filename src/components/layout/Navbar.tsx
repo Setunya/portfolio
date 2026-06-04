@@ -33,8 +33,7 @@ export function Navbar() {
     { id: "skills", label: dict.nav.skills },
     { id: "projects", label: dict.nav.projects },
     { id: "journey", label: dict.nav.journey },
-    { id: "focus", label: dict.nav.focus },
-    { id: "contact", label: dict.nav.contact },
+      { id: "contact", label: dict.nav.contact },
   ];
 
   useEffect(() => {
