@@ -183,5 +183,5 @@ const dictionaries = {
 export type Dictionary = (typeof dictionaries)["en"];
 
 export function getDictionary(locale: Locale): Dictionary {
-  return dictionaries[locale];
+  return dictionaries[locale] as Dictionary;
 }
