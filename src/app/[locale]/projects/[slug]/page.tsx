@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -178,6 +179,32 @@ export default async function ProjectPage({
             </div>
           )}
         </Reveal>
+
+        {/* Screenshots */}
+        {project.screenshots && project.screenshots.length > 0 && (
+          <Reveal className="mt-10">
+            <h2 className="mb-4 text-sm font-semibold uppercase tracking-wide text-muted">
+              Screenshots
+            </h2>
+            <div className="flex flex-wrap gap-4">
+              {project.screenshots.map((src, i) => (
+                <div
+                  key={i}
+                  className="overflow-hidden rounded-2xl border border-navy-100 shadow-md dark:border-navy-800"
+                  style={{ maxWidth: 220 }}
+                >
+                  <Image
+                    src={src}
+                    alt={`${project.title} screenshot ${i + 1}`}
+                    width={220}
+                    height={440}
+                    className="object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+          </Reveal>
+        )}
 
         {/* Tech */}
         <Reveal className="mt-10">

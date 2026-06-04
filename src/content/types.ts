@@ -56,6 +56,8 @@ export interface Project {
     demo?: string;
     figma?: string;
   };
+  /** Optional screenshot paths relative to /public */
+  screenshots?: string[];
   /** Full case study fields. */
   problem: Localized;
   approach: Localized;

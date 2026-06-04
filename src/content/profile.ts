@@ -115,6 +115,11 @@ export const portfolio: PortfolioData = {
       links: {
         figma: "#",
       },
+      screenshots: [
+        "/images/health-tracker/screen-1-login.png",
+        "/images/health-tracker/screen-2-home.png",
+        "/images/health-tracker/screen-3-detail.png",
+      ],
       problem: {
         en: "People struggle to track daily health data consistently because most apps feel cluttered and clinical. The goal was a mobile interface where logging and reviewing health information feels effortless and reassuring.",
         tr: "Çoğu uygulama karmaşık ve klinik hissettirdiği için insanlar günlük sağlık verilerini düzenli takip etmekte zorlanıyor. Amaç, sağlık bilgisini kaydetmenin ve incelemenin zahmetsiz ve güven verici hissettirdiği bir mobil arayüzdü.",
