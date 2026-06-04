@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion, type Variants } from "framer-motion";
-import { Download, FolderGit2, Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { FolderGit2, Github, Linkedin, Mail, MapPin } from "lucide-react";
 import { useLocale } from "@/i18n/LocaleProvider";
 import { portfolio } from "@/content/profile";
 import { LinkButton } from "@/components/ui/Button";
@@ -74,9 +74,9 @@ export function Hero() {
           </motion.p>
 
           <motion.div variants={item} className="mt-8 flex flex-wrap items-center gap-3">
-            <LinkButton href={t(profile.cvPath)} external variant="primary" size="lg">
-              <Download className="h-4 w-4" />
-              {dict.actions.downloadCv}
+            <LinkButton href={profile.social.linkedin} external variant="primary" size="lg">
+              <Linkedin className="h-4 w-4" />
+              LinkedIn
             </LinkButton>
             <button
               onClick={() => scrollToId("projects")}
