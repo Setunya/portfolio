@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://portfolio-1o5y.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://ayse-sena-bagdat.vercel.app";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
