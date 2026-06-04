@@ -15,19 +15,19 @@ export const portfolio: PortfolioData = {
     location: { en: "Ankara, Türkiye", tr: "Ankara, Türkiye" },
     headline: { en: "Learn. Build. Improve.", tr: "Öğren. Üret. Geliştir." },
     subtitle: {
-      en: "Management Information Systems student focused on data analysis, artificial intelligence, software, and SAP/ERP processes.",
-      tr: "Veri analizi, yapay zeka, yazılım ve SAP/ERP süreçlerine odaklanan bir Yönetim Bilişim Sistemleri öğrencisi.",
+      en: "Multidisciplinary MIS student who codes, designs, analyzes data, and leads teams — working toward full-stack software development.",
+      tr: "Kod yazan, tasarlayan, veri analiz eden ve ekip yöneten çok yönlü bir MIS öğrencisi — full-stack yazılım geliştirme hedefiyle.",
     },
     about: {
       en: [
-        "I'm a 3rd-year Management Information Systems student at Ankara Medipol University, sitting right at the intersection of business and technology. I'm most interested in turning data, software, and ERP processes into things people can actually use.",
-        "Beyond coursework, I build and lead. I founded InnoLearnTech (ILTECH), a student team competing in programs like Teknofest, ESC30 and UNIDES, and co-founded the civic initiative \"Genç Ne İster?\". I captain teams in the Pardus bug-hunting competition and a European Solidarity Corps (ESC30) project.",
-        "My toolkit spans Python, SQL and data analysis (SPSS), UI/UX design in Figma, React front-ends, and SAP/ERP fundamentals — plus a cloud security foundation from the Huawei HSD bootcamp. I learn fast, ship projects, and like owning problems end to end.",
+        "I'm a 3rd-year Management Information Systems student at Ankara Medipol University — right at the intersection of business and technology. My focus is software development: I've worked with Python, C, Java, SQL, HTML/CSS and JavaScript, and I'm actively building toward full-stack development. I'm interested in both frontend and backend, and how they come together to create things people can actually use.",
+        "Beyond coursework, I build and lead. I founded InnoLearnTech (ILTECH), a student team competing in Teknofest, ESC30 and UNIDES, and co-founded the civic initiative \"Genç Ne İster?\". I captain teams in the Pardus bug-hunting competition and a European Solidarity Corps (ESC30) project.",
+        "My work spans UI/UX design (Figma), data analysis (SPSS, SQL), computer vision (OpenCV, MediaPipe), SAP/ERP processes, and cloud security fundamentals (Huawei HSD). I'm multidisciplinary by nature — I learn fast, ship real projects, and like owning problems end to end.",
       ],
       tr: [
-        "Ankara Medipol Üniversitesi'nde 3. sınıf Yönetim Bilişim Sistemleri öğrencisiyim; tam olarak iş ve teknolojinin kesişiminde duruyorum. En çok veriyi, yazılımı ve ERP süreçlerini insanların gerçekten kullanabileceği şeylere dönüştürmekle ilgileniyorum.",
-        "Ders dışında da üretip liderlik yapıyorum. Teknofest, ESC30 ve UNIDES gibi programlarda yarışan öğrenci ekibi InnoLearnTech'i (ILTECH) kurdum ve \"Genç Ne İster?\" sivil inisiyatifinin kurucu ortağıyım. Pardus hata yakalama yarışmasında ve bir Avrupa Dayanışma Programı (ESC30) projesinde ekip kaptanlığı yapıyorum.",
-        "Becerilerim Python, SQL ve veri analizinden (SPSS), Figma'da UI/UX tasarımına, React arayüzlerine ve SAP/ERP temellerine kadar uzanıyor — buna Huawei HSD bootcamp'ten gelen bir bulut güvenliği temeli de ekleniyor. Hızlı öğrenir, proje çıkarır ve problemleri baştan sona sahiplenmeyi severim.",
+        "Ankara Medipol Üniversitesi'nde 3. sınıf Yönetim Bilişim Sistemleri öğrencisiyim; iş ve teknolojinin tam kesişimindeyim. Odağım yazılım geliştirme: Python, C, Java, SQL, HTML/CSS ve JavaScript üzerine çalıştım ve aktif olarak full-stack geliştirmeye ilerliyorum. Hem frontend hem backend ilgimi çekiyor — ikisinin bir araya gelip kullanılabilir şeyler üretmesi beni heyecanlandırıyor.",
+        "Ders dışında da üretip liderlik yapıyorum. Teknofest, ESC30 ve UNIDES'te yarışan öğrenci ekibi InnoLearnTech'i (ILTECH) kurdum ve \"Genç Ne İster?\" sivil inisiyatifinin kurucu ortağıyım. Pardus hata yakalama yarışmasında ve bir Avrupa Dayanışma Programı (ESC30) projesinde ekip kaptanlığı yapıyorum.",
+        "Çalışmalarım UI/UX tasarımı (Figma), veri analizi (SPSS, SQL), bilgisayarlı görü (OpenCV, MediaPipe), SAP/ERP süreçleri ve bulut güvenliği temellerini (Huawei HSD) kapsıyor. Doğası gereği çok yönlüyüm — hızlı öğrenir, gerçek projeler çıkarır ve problemleri baştan sona sahiplenmeyi severim.",
       ],
     },
     cvPath: {
@@ -44,9 +44,15 @@ export const portfolio: PortfolioData = {
   skills: [
     {
       id: "programming",
-      label: { en: "Programming & Software", tr: "Programlama & Yazılım" },
+      label: { en: "Programming Languages", tr: "Programlama Dilleri" },
       icon: "Code2",
-      skills: ["Python", "JavaScript", "TypeScript", "React", "Vite"],
+      skills: ["Python", "Java", "C", "JavaScript", "SQL"],
+    },
+    {
+      id: "web",
+      label: { en: "Web & Frontend", tr: "Web & Frontend" },
+      icon: "Globe",
+      skills: ["HTML", "CSS", "React", "TypeScript", "Vite"],
     },
     {
       id: "data",
@@ -708,11 +714,11 @@ export const portfolio: PortfolioData = {
       },
     },
     {
-      id: "react",
-      icon: "Code2",
+      id: "fullstack",
+      icon: "Layers",
       text: {
-        en: "Leveling up React + TypeScript front-end development.",
-        tr: "React + TypeScript ile front-end geliştirmemi bir üst seviyeye taşıyorum.",
+        en: "Working toward full-stack development — deepening both frontend (React) and backend skills.",
+        tr: "Full-stack geliştirmeye ilerliyorum — hem frontend (React) hem backend becerilerimi derinleştiriyorum.",
       },
     },
     {

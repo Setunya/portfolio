@@ -9,6 +9,8 @@ import {
   Languages,
   Rocket,
   Briefcase,
+  Globe,
+  Layers,
   type LucideIcon,
 } from "lucide-react";
 
@@ -23,6 +25,8 @@ const map: Record<string, LucideIcon> = {
   Languages,
   Rocket,
   Briefcase,
+  Globe,
+  Layers,
 };
 
 export function Icon({
