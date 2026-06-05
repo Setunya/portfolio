@@ -14,7 +14,7 @@ const SECTION_IDS = [
   "skills",
   "projects",
   "journey",
-  "focus",
+  "certifications",
   "contact",
 ] as const;
 
@@ -33,7 +33,8 @@ export function Navbar() {
     { id: "skills", label: dict.nav.skills },
     { id: "projects", label: dict.nav.projects },
     { id: "journey", label: dict.nav.journey },
-      { id: "contact", label: dict.nav.contact },
+    { id: "certifications", label: dict.nav.certifications },
+    { id: "contact", label: dict.nav.contact },
   ];
 
   useEffect(() => {

@@ -94,7 +94,7 @@ export const portfolio: PortfolioData = {
       id: "languages",
       label: { en: "Languages", tr: "Diller" },
       icon: "Languages",
-      skills: ["Türkçe (Native)", "English (B1)"],
+      skills: ["Türkçe (Native)", "English (B1)", "Arapça (B1)", "Çince (A2)"],
     },
   ],
 
@@ -680,34 +680,56 @@ export const portfolio: PortfolioData = {
     },
   ],
 
-  // Hidden for now — flip showCertifications to true once credential links are ready.
   certifications: [
     {
-      id: "huawei-hsd",
-      title: { en: "HSD Cloud Security Bootcamp", tr: "HSD Bulut Güvenliği Bootcamp" },
-      issuer: { en: "HSD Türkiye × Huawei", tr: "HSD Türkiye × Huawei" },
-      date: "2025",
+      id: "btk-python",
+      title: { en: "Python Programming for Beginners", tr: "Yeni Başlayanlar için Python Programlama" },
+      issuer: { en: "BTK Academy (BTK)", tr: "BTK Akademi (BTK)" },
+      date: "Ocak 2025",
+      credentialUrl: "https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=eK1hyNXlxO",
     },
     {
-      id: "entrepreneurship",
-      title: {
-        en: "Applied Entrepreneurship Programme for Women & Youth",
-        tr: "Kadın ve Gençler için Uygulamalı Girişimcilik Programı",
-      },
-      issuer: { en: "Ankara Development Agency", tr: "Ankara Kalkınma Ajansı" },
-      date: "2025",
+      id: "btk-java",
+      title: { en: "Introduction to Programming with Java", tr: "JAVA ile Programlamaya Giriş" },
+      issuer: { en: "BTK Academy (BTK)", tr: "BTK Akademi (BTK)" },
+      date: "Ocak 2025",
+      credentialUrl: "https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=dx1hAkYY48",
     },
     {
-      id: "tech4youth",
-      title: { en: "Tech4Youth Programme", tr: "Tech4Youth Programı" },
-      issuer: {
-        en: "Women in Science & Technology Association",
-        tr: "Bilim ve Teknoloji Kadın Derneği",
-      },
-      date: "2025",
+      id: "btk-html",
+      title: { en: "Web Development with HTML5", tr: "HTML5 ile Web Geliştirme" },
+      issuer: { en: "BTK Academy (BTK)", tr: "BTK Akademi (BTK)" },
+      date: "Mayıs 2026",
+      credentialUrl: "https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=XV1hBK82mo",
+    },
+    {
+      id: "btk-git",
+      title: { en: "Version Control: Git and GitHub", tr: "Versiyon Kontrolleri: Git ve GitHub" },
+      issuer: { en: "BTK Academy (BTK)", tr: "BTK Akademi (BTK)" },
+      date: "Nisan 2026",
+      credentialUrl: "https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=bx1hLoD1mL",
+    },
+    {
+      id: "udemy-spss",
+      title: { en: "Applied SPSS Training", tr: "Uygulamalı Temel SPSS Eğitimi" },
+      issuer: { en: "Udemy", tr: "Udemy" },
+      date: "Mayıs 2026",
+      credentialUrl: "https://ude.my/UC-65e673f7-4303-4cbe-84ef-f01cacfae000",
+    },
+    {
+      id: "gen-academy",
+      title: { en: "Software Technologies & AI — Sales & Brand", tr: "Yazılım Teknolojileri ve Yapay Zeka — Satış Pazarlama ve Marka Yaratma" },
+      issuer: { en: "GEN Academy", tr: "GEN Academy" },
+      date: "2024–2025",
+    },
+    {
+      id: "iner-congress",
+      title: { en: "IV. International 21st Century Educational Research Congress (INER 2026)", tr: "IV. Uluslararası 21. Yüzyıl Eğitim Araştırmaları Kongresi (INER 2026)" },
+      issuer: { en: "Burdur Mehmet Akif Ersoy University", tr: "Burdur Mehmet Akif Ersoy Üniversitesi" },
+      date: "Mayıs 2026",
     },
   ],
-  showCertifications: false,
+  showCertifications: true,
 
   focus: [
     {
